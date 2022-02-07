@@ -17,7 +17,6 @@ p {
     color:  maroon;
     
 }
-em {
-        font-family:sans-serif
-
+p.greentea {
+    color: green;
 }
