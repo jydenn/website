@@ -1,5 +1,4 @@
 h1,h2 {
-    font-family:sans-serif;
     color:      gray;
     border-bottom: 1px solid black;
 }
@@ -16,5 +15,5 @@ body  {
     }
 p {
     color:  maroon;
-    font-family: sans-serif;
+    
 }
