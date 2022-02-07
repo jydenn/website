@@ -12,8 +12,9 @@ body  {
     margin-left: 20%;
     margin-right: 20%;
     padding: 10px 10px 10px 10px;
-    font-family: sans-serif
+    font-family: sans-serif;
     }
 p {
     color:  maroon;
+    font-family: sans-serif;
 }
