@@ -17,6 +17,6 @@ p {
     color:  maroon;
     
 }
-blockquote, p.greentea {
+.greentea {
     color: green;
 }
