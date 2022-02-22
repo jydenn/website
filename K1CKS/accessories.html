@@ -14,6 +14,17 @@ h2      {
         text-align:center;
 }
 </style>
+<script>
+        function init() {
+          var loc = window.location.href;
+          var HTMLvalidLinkStr = 'http://validator.w3.org/check?uri=' + loc;
+          var CSSvalidLinkStr = 'http://jigsaw.w3.org/css-validator/validator?uri=' +
+                                loc + '?profile=css3';
+          document.getElementById("vLink1").setAttribute("href", HTMLvalidLinkStr);
+          document.getElementById("vLink2").setAttribute("href", CSSvalidLinkStr);
+        }
+        window.onload = init;
+        </script>
 </head>
 <body>
 <header>
@@ -26,10 +37,8 @@ h2      {
 <h3>1017 ALYX 9SM Silver Hero 4X Chain Bracelet</h3>
 <img src="https://img.ssensemedia.com/images/b_white,g_center,f_auto,q_auto:best/212776M142010_2/1017-alyx-9sm-silver-hero-4x-chain-bracelet.jpg" alt="alt string">
 <footer style="text-align: center;">
-<a href="http://validator.w3.org/check?uri=https://jydenn.github.io/website/">
-<strong> HTML </strong> Valid! </a> |
-<a href="http://jigsaw.w3.org/css-validator?uri=https://jydenn.github.io/website/?profile=css3">
-<strong> CSS </strong> Valid! </a>
+        <a id="vLink1"><strong> HTML </strong> Valid! </a> |
+        <a id="vLink2"><strong> CSS </strong> Valid! </a>
 </footer>
 </body>
 </html>

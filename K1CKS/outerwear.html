@@ -16,6 +16,17 @@ h3      {
         color:ghostwhite;
 }
 </style>
+<script>
+        function init() {
+          var loc = window.location.href;
+          var HTMLvalidLinkStr = 'http://validator.w3.org/check?uri=' + loc;
+          var CSSvalidLinkStr = 'http://jigsaw.w3.org/css-validator/validator?uri=' +
+                                loc + '?profile=css3';
+          document.getElementById("vLink1").setAttribute("href", HTMLvalidLinkStr);
+          document.getElementById("vLink2").setAttribute("href", CSSvalidLinkStr);
+        }
+        window.onload = init;
+        </script>
 </head>
 <body>
 <header>
@@ -33,10 +44,8 @@ h3      {
 <h3>On Sale for $400 USD</h3>
 <img src="https://images-dynamic-arcteryx.imgix.net/F21/1350x1710/Alpha-SV-Jacket-24K-Black.jpg?auto=format%2Ccompress&q=75&ixlib=react-9.0.2&w=512" alt="alt string">
 <footer style="text-align: center;">
-<a href="http://validator.w3.org/check?uri=https://jydenn.github.io/website/K1CKS/outerwear.html">
-<strong> HTML </strong> Valid! </a> |
-<a href="http://jigsaw.w3.org/css-validator?uri=https://jydenn.github.io/website/?profile=css3">
-        <strong> CSS </strong> Valid! </a>
+        <a id="vLink1"><strong> HTML </strong> Valid! </a> |
+        <a id="vLink2"><strong> CSS </strong> Valid! </a>
 </footer>
 </body>
 </html>
