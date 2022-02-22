@@ -44,4 +44,6 @@ p.blueberry {
     padding: 25px;
     margin: 30px;
     background-image: url(images/background.gif);
+    background-repeat: no-repeat;
+    background-position: top left;
 }
