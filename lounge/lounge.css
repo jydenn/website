@@ -32,7 +32,7 @@ p.raspberry {
 p.blueberry {
         color: purple;
 }
-.guarantee {
+#guarantee {
     line-height: 1.9em;
     font-style: italic;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -42,8 +42,24 @@ p.blueberry {
     border-style: solid;
     background-color: #a7cece;
     padding: 25px;
+    padding-left: 80px;
     margin: 30px;
+    margin-right: 250px;
     background-image: url(images/background.gif);
     background-repeat: no-repeat;
     background-position: top left;
+}
+p.specials {
+    color: red;
+}
+.specials {
+    color: red;
+
+}
+#footer {
+    color: red;
+
+}
+p#footer {
+    color: red;
 }
