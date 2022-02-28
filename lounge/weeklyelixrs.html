@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title></title>
+<style>
+
+
+</style>
+<script>
+    function init() {
+      var loc = window.location.href;
+      var HTMLvalidLinkStr = 'http://validator.w3.org/check?uri=' + loc;
+      var CSSvalidLinkStr = 'http://jigsaw.w3.org/css-validator/validator?uri=' +
+                            loc + '?profile=css3';
+      document.getElementById("vLink1").setAttribute("href", HTMLvalidLinkStr);
+      document.getElementById("vLink2").setAttribute("href", CSSvalidLinkStr);
+    }
+    window.onload = init;
+    </script>
+</head>
+<body>
+<header>
+<a href="elixers.html">Back</a>
+</header>
+<hr>
+<h2>Weekly Elixer Special</h2>
+<p>
+    <img src="images/yellow.gif" alt="Lemon Breeze Elixers">
+</p>
+<h3>Lemon Breeze</h3>
+<p>
+    The ultimate healthy drink, this elixir combines herbal botanicals, minerals, and vitamins with a twist of lemon into a smooth citrus wonder that will keep your immune system going all
+day and all night.
+</p>
+<p>
+    <img src="images/black.gif" alt="Chai Chiller Elixer">
+</p>
+<h3>Chai Chiller</h3>
+<p>
+    Not your traditional chai, this elixir mixes mat&eacute; with chai spices and adds an extra chocolate kick for
+a caffeinated taste sensation on ice.
+</p>
+
+<p>
+    <img src="images/black.gif" alt="Black Brain Brew Elixer">
+</p>
+<h3>Black Brain Brew</h3>
+<p>
+Want to boost your memory? Try our Black Brain Brew elixir, made with black oolong tea and just a touch of espresso. Your brain will thank you for the boost.
+</p>
+
+<p>
+    Join us any evening for these and all our other wonderful
+    <a href="elixir.html"
+       title="Head First Lounge Elixirs">elixirs</a>.
+</p>
+<footer style="text-align: center;">
+    <a id="vLink1"><strong> HTML </strong> Valid! </a> |
+    <a id="vLink2"><strong> CSS </strong> Valid! </a>
+</footer>
+</body>
+</html>
