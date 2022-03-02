@@ -86,5 +86,21 @@ p#footer {
     color: black;
 }
 #elixris h3{
-    color: #d12c47
+    color: #d12c47;
+}
+.cd{
+    font-style: italic;
+}
+.artist{
+    font-weight: bold;
+}
+#elixris a:link{
+    color: #007e7e;
+}
+#exixris a:visited{
+    color: #333333;
+}
+#elixris a:hover{
+    background: #f88396;
+    color: #0d5353;
 }
