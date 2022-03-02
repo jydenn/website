@@ -63,9 +63,28 @@ p.specials {
 p#footer {
     color: red;
 }
-#elixirs {
+#elixris {
     border-width: thin;
     border-style: solid;
     border-color: #007e7e;
     width: 200px;
+
+
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+
+    margin-left: 20px; 
+    text-align: center;
+
+    background-image: url(images/cocktail.gif) ;
+    background-repeat: repeat-x;
+
+    line-height: 1;
+}
+#elixris h2{
+    color: black;
+}
+#elixris h3{
+    color: #d12c47
 }
