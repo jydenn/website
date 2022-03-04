@@ -5,6 +5,16 @@ h1,h2 {
 h1  {
     border-bottom: 1px solid black;
     font-size: 150%;
+    color: #efefef;
+}
+h1.blueberry {
+    color: blue;
+}
+body h1{
+    color: #cccccc
+}
+h1 {
+    color: black;
 }
 h2 {
     font-size: 150%;
@@ -58,7 +68,10 @@ p.specials {
 }
 #footer {
     color: red;
-
+    font-size: 50%;
+    text-align: center;
+    line-height: normal;
+    margin-top: 30px;
 }
 p#footer {
     color: red;
