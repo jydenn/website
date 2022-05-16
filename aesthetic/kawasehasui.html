@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Kawase Hasui</title>
+<style>
+
+
+</style>
+<script>
+    function init() {
+      var loc = window.location.href;
+      var HTMLvalidLinkStr = 'http://validator.w3.org/check?uri=' + loc;
+      var CSSvalidLinkStr = 'http://jigsaw.w3.org/css-validator/validator?uri=' +
+                            loc + '?profile=css3';
+      document.getElementById("vLink1").setAttribute("href", HTMLvalidLinkStr);
+      document.getElementById("vLink2").setAttribute("href", CSSvalidLinkStr);
+    }
+    window.onload = init;
+    </script>
+</head>
+<body>
+<header>
+<a href="japaneseart.html">Back</a>
+</header>
+<hr>
+<h3>Who is Kawase Hasui?</h3>
+<p>Kawase Hasui was a japenese artist born in tokyo.  He was an extremely importent and prolific paintmaker during the shin-hanga movement. </p>
+<br>
+<h3>Here are a couple pieces of his art</h3>
+<ul>
+    <li> <img src="https://www.nipponboutique.com/23131-large_default/japanese-print-shinagawa-kawase-hasui.jpg" alt="alt string"> </li>
+    <li> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/The_Pond_at_Benten_Shrine_in_Shiba%2C_Kawase_Hasui%2C_MFAB_50.2885.jpg/521px-The_Pond_at_Benten_Shrine_in_Shiba%2C_Kawase_Hasui%2C_MFAB_50.2885.jpg" alt="alt string"> </li>
+    <li> <img src="https://images.squarespace-cdn.com/content/v1/5a4ee623b0786969790de944/1536378145623-8NF5SJHTMOBLSK1YNHW1/Shin_Hanga_Hasui_Hida_Kamagatale_1933.png?format=2500w" alt="alt string"> </li>
+</ul>
+
+
+<footer style="text-align: center;">
+    <a id="vLink1"><strong> HTML </strong> Valid! </a> |
+    <a id="vLink2"><strong> CSS </strong> Valid! </a>
+</footer>
+</body>
+</html>
