@@ -7,3 +7,9 @@ function init() {
 function handleButtonClick() {
     alert("Button was clicked!")
 }
+
+function handleButtonClick() {
+    var textInput= document.getElementById("songTextInput");
+    var songName= textInput.value;
+    alert("Adding" + songName);
+}
