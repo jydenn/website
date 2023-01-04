@@ -11,5 +11,9 @@ function handleButtonClick() {
 function handleButtonClick() {
     var textInput= document.getElementById("songTextInput");
     var songName= textInput.value;
-    alert("Adding" + songName);
-}
+    if (songName == "") {
+        alert("Please enter a song");
+    } else {
+        alert("Adding" + songName);
+    }
+}    
