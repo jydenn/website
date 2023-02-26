@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    background-color: grey;
+
+}
+
+div {
+    background-color: red;
+    width: 400px;
+    height: 200px;
+    padding: 15px; 
+    margin:15px;
+    float: left;
+
+}
