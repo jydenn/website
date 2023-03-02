@@ -4,6 +4,7 @@ body {
 
 table, th, td {
     border: 1px solid black;
+    font-size: 20px;
 }
 th, td {
     padding: 75px;
@@ -19,4 +20,8 @@ th, td {
 
 .image3{
     opacity: 0.50;
+}
+
+.image4{
+    opacity: 1;
 }
