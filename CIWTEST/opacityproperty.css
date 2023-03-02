@@ -10,5 +10,13 @@ th, td {
 }
 
 .image1 {
+    opacity: 0;
+}
+
+.image2 {
     opacity: 0.15;
+}
+
+.image3{
+    opacity: 0.50;
 }
