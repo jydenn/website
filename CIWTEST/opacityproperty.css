@@ -1,6 +1,5 @@
 body {
     background-color:beige;
-    text-align: center;
 }
 
 table, th, td {
@@ -25,4 +24,9 @@ th, td {
 
 .image4{
     opacity: 1;
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
 }
