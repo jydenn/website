@@ -2,9 +2,29 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Resize</title>
+<title>Background Clip</title>
 <style>
 
+#example1 { 
+    border: 5px dashed green;
+    padding: 20px;
+    background: hotpink;
+    background-clip: border-box;
+}
+
+#example2 { 
+    border: 5px dashed green;
+    padding: 20px;
+    background: hotpink;
+    background-clip: padding-box;
+}
+
+#example3 { 
+    border: 5px dashed green;
+    padding: 20px;
+    background: hotpink;
+    background-clip: content-box;
+}
 
 </style>
 <script>
@@ -18,18 +38,22 @@
     }
     window.onload = init;
     </script>
-    <link rel="stylesheet" type="text/css" href="resize.css">
 </head>
 <body>
-<div class="container1">
-    <img src="https://d32dm0rphc51dk.cloudfront.net/ITroKwWUgrsFlax-zrHhBQ/large.jpg" alt="alt string">
+    <h1 style="text-align: center;">Problem</h1>
+    <h3 style="text-align: center;">Background Clip</h3>
+<div id="example1">
+    <p><b>This is an example of a (Border Box)</b></p>
 </div>
-<div class="container2">
-    <input type="text">
+<hr>
+<div id="example2">
+    <p><b>This is an example of a (Padding Box)</b></p>
 </div>
-<div class="container3">
-    <img src="image.png" alt="alt string">
+<hr>
+<div id="example3">
+    <p><b>This is an example of a (Content Box)</b></p>
 </div>
+<hr>
 <footer style="text-align: center;">
     <a id="vLink1"><strong> HTML </strong> Valid! </a> |
     <a id="vLink2"><strong> CSS </strong> Valid! </a>
